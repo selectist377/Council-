@@ -24,4 +24,5 @@ Mixed Colors: Otherwise, Council Points are calculated for both red and black ca
 6.Role Rotation: After each round, players will switch roles, colors, and who goes first. Your scores, however, remain tied to you as a player.
 7.Drawing Cards: Players draw cards to replenish their hand to 4 cards. If there aren't enough cards left in the deck, they'll draw as many as possible. In each round, the current Red Team player draws first.
 8.Real-time Calculation: You can view the real-time Deliberation Point calculations directly on the webpage.
+Council Points = (Sum of ranks for matching color) ÷ (Number of matching color cards), 
 Have fun!
