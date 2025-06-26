@@ -11,3 +11,16 @@
 8.你可以在网页查看相关议事点数计算。
 玩的开心！
 ——————————————————————————————
+This is a web-based demo version of an original card game, designed solely to demonstrate its core mechanics. You can switch languages in the top right corner of the webpage.
+Game Rules:
+Deck: The game uses a standard 54-card poker deck, including both Jokers.
+Determining First Player: You can decide who goes first using methods like rock-paper-scissors, a card flip, or a coin toss. Player A will be the Red Team and go first, while Player B will be the Black Team and go second. Players will then take turns placing cards face down.
+Placing Cards: In each round, both players will secretly place either 1 or 2 cards face down. Your opponent won't be able to see the cards you've played.
+Scoring: Once both players have placed their cards, they are revealed.
+All Same Color: If all the revealed cards are the same color (either all red or all black), the player who doesn't have that color among their placed cards scores 1 point.
+Mixed Colors: Otherwise, Council Points are calculated for both red and black cards separately. Deliberation Points are determined by dividing the sum of the points of the corresponding colored cards by the total number of cards of that color, then rounding up. If any Jokers are played, the Deliberation Points are swapped a number of times equal to the number of Jokers played. Jokers are worth 0 points. Jack (J), Queen (Q), King (K), and Ace (A) are worth 11, 12, 13, and 1 point respectively. The player whose color has the higher Deliberation Points scores 1 point. If there's a tie, both players score 1 point.
+Game End: The game ends after a maximum of 27 rounds (when the deck runs out), or if one player's hand becomes empty.
+Role Rotation: After each round, players will switch roles, colors, and who goes first. Your scores, however, remain tied to you as a player.
+Drawing Cards: Players draw cards to replenish their hand to 4 cards. If there aren't enough cards left in the deck, they'll draw as many as possible. In each round, the current Red Team player draws first.
+Real-time Calculation: You can view the real-time Deliberation Point calculations directly on the webpage.
+Have fun!
